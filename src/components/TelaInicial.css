@@ -1,0 +1,36 @@
+.inicio h1{
+    font-size: 3.5em;
+    color: whitesmoke;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.inicio span{
+    display: block;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 3rem
+}
+
+.inicio button{
+    background: rgb(44, 44, 44);
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    transition: .3s;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.inicio button:hover{
+    transform: scale(1.05);
+    background: rgb(23, 23, 23);
+}
